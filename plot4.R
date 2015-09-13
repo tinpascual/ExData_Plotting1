@@ -20,7 +20,7 @@ plot4<-function(){
             legend("topright", col=c("black", "red", "blue"), lty=1,
                    legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
         plot(Date.Time, Global_reactive_power, xlab="datetime", ylab="Global_reactive_power", type="l")
-    }, mar=0)
+    })
     
     dev.off()
 }
